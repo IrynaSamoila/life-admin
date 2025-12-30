@@ -3,9 +3,9 @@ import type { Metadata } from 'next';
 export const siteConfig = {
   name: 'Life Admin',
   description: 'Practical systems and processes for managing life admin tasks',
-  url: 'https://your-domain.vercel.app',
-  author: 'Your Name',
-  email: 'your.email@example.com',
+  url: 'https://life-admin.uk',
+  author: 'Life Admin',
+  email: 'hello@life-admin.uk',
 };
 
 export function constructMetadata({
@@ -42,7 +42,6 @@ export function constructMetadata({
       title,
       description,
       images: [image],
-      creator: '@yourusername',
     },
     alternates: {
       canonical: canonical || siteConfig.url,

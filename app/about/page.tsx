@@ -46,6 +46,15 @@ export default function About() {
           Every system we share is tested in real-world conditions and designed to be adapted
           to your specific situation. We believe the best system is the one you&apos;ll actually use.
         </p>
+
+        <h2 className="mb-4 mt-8 text-2xl font-bold text-gray-900">Get in Touch</h2>
+        <p className="leading-relaxed">
+          For questions or feedback, contact us at{' '}
+          <a href="mailto:hello@life-admin.uk" className="text-blue-600 hover:text-blue-800 underline">
+            hello@life-admin.uk
+          </a>
+          .
+        </p>
       </div>
     </div>
   );

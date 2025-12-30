@@ -138,17 +138,17 @@ MDX files support:
 
 ```typescript
 export const siteConfig = {
-  name: 'Your Site Name',
-  description: 'Your site description',
-  url: 'https://your-domain.com',  // Update with your actual domain
-  author: 'Your Name',
-  email: 'your.email@example.com',
+  name: 'Life Admin',
+  description: 'Practical systems and processes for managing life admin tasks',
+  url: 'https://life-admin.uk',
+  author: 'Life Admin',
+  email: 'hello@life-admin.uk',
 };
 ```
 
-2. **`public/robots.txt`**: Update the Sitemap URL with your actual domain
+2. **`public/robots.txt`**: Sitemap URL (already configured for life-admin.uk)
 
-3. **`scripts/generate-sitemap.mjs`**: Update the `SITE_URL` constant with your actual domain
+3. **`scripts/generate-sitemap.mjs`**: SITE_URL constant (already configured for life-admin.uk)
 
 ### Styling
 
@@ -197,8 +197,9 @@ npx serve@latest out
    - Click "Deploy"
    - Your site will be live in minutes
 
-4. **Update site URL**
-   - After deployment, update `siteConfig.url` in `lib/metadata.ts` with your Vercel URL
+4. **Configure custom domain**
+   - Add life-admin.uk in Vercel's domain settings
+   - DNS will auto-configure with Vercel nameservers
 
 ### Deploy to Other Static Hosts
 
@@ -319,7 +320,7 @@ This project is open source and available under the MIT License.
 For issues or questions:
 - Check existing documentation
 - Review Next.js 15 documentation
-- Open an issue on GitHub (if applicable)
+- Contact us at hello@life-admin.uk
 
 ---
 

@@ -26,25 +26,25 @@ Visit http://localhost:3000 to see your site.
 
 Before deploying, update these files with your information:
 
-**lib/metadata.ts** - Site name, description, URL, author
+**lib/metadata.ts** - Site configuration (already set for life-admin.uk)
 ```typescript
 export const siteConfig = {
-  name: 'Your Site Name',        // Change this
-  description: 'Your description', // Change this
-  url: 'https://your-domain.com', // Change this
-  author: 'Your Name',            // Change this
-  email: 'your@email.com',        // Change this
+  name: 'Life Admin',
+  description: 'Practical systems and processes for managing life admin tasks',
+  url: 'https://life-admin.uk',
+  author: 'Life Admin',
+  email: 'hello@life-admin.uk',
 };
 ```
 
-**public/robots.txt** - Line 5
+**public/robots.txt** - Sitemap URL (already configured)
 ```
-Sitemap: https://your-domain.com/sitemap.xml
+Sitemap: https://life-admin.uk/sitemap.xml
 ```
 
-**scripts/generate-sitemap.mjs** - Line 6
+**scripts/generate-sitemap.mjs** - Site URL (already configured)
 ```javascript
-const SITE_URL = 'https://your-domain.com';
+const SITE_URL = 'https://life-admin.uk';
 ```
 
 ### 3. Add Your Blog Posts
@@ -92,9 +92,9 @@ This generates a static site in the `out/` directory.
 Vercel auto-detects Next.js. No configuration needed.
 
 After deployment:
-1. Copy your Vercel URL
-2. Update `lib/metadata.ts`, `public/robots.txt`, and `scripts/generate-sitemap.mjs` with your URL
-3. Rebuild and redeploy
+1. Add custom domain life-admin.uk in Vercel settings
+2. Update DNS nameservers as instructed by Vercel
+3. Wait for SSL certificate to provision (automatic)
 
 ## Project Structure
 

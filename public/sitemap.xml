@@ -1,115 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://your-domain.vercel.app</loc>
+    <loc>https://life-admin.uk</loc>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://your-domain.vercel.app/blog</loc>
+    <loc>https://life-admin.uk/blog</loc>
     
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.vercel.app/about</loc>
+    <loc>https://life-admin.uk/about</loc>
     
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.vercel.app/privacy-policy</loc>
+    <loc>https://life-admin.uk/privacy-policy</loc>
     
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://your-domain.vercel.app/blog/annual-tasks-system</loc>
+    <loc>https://life-admin.uk/blog/annual-tasks-system</loc>
     <lastmod>2025-12-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.vercel.app/blog/automate-bill-payments</loc>
-    <lastmod>2025-12-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://your-domain.vercel.app/blog/car-maintenance-tracking</loc>
+    <loc>https://life-admin.uk/blog/automate-bill-payments</loc>
     <lastmod>2025-12-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.vercel.app/blog/digital-filing-system</loc>
-    <lastmod>2025-12-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://your-domain.vercel.app/blog/document-retention</loc>
+    <loc>https://life-admin.uk/blog/car-maintenance-tracking</loc>
     <lastmod>2025-12-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.vercel.app/blog/end-of-year-admin</loc>
+    <loc>https://life-admin.uk/blog/digital-filing-system</loc>
     <lastmod>2025-12-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.vercel.app/blog/household-admin-30-minutes</loc>
+    <loc>https://life-admin.uk/blog/document-retention</loc>
     <lastmod>2025-12-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.vercel.app/blog/meal-planning-system</loc>
-    <lastmod>2025-12-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://your-domain.vercel.app/blog/medical-records-organization</loc>
+    <loc>https://life-admin.uk/blog/end-of-year-admin</loc>
     <lastmod>2025-12-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.vercel.app/blog/moving-house-admin</loc>
+    <loc>https://life-admin.uk/blog/household-admin-30-minutes</loc>
     <lastmod>2025-12-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.vercel.app/blog/paper-mail-system</loc>
+    <loc>https://life-admin.uk/blog/meal-planning-system</loc>
     <lastmod>2025-12-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.vercel.app/blog/password-management-simple</loc>
+    <loc>https://life-admin.uk/blog/medical-records-organization</loc>
     <lastmod>2025-12-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.vercel.app/blog/switch-utility-providers</loc>
+    <loc>https://life-admin.uk/blog/moving-house-admin</loc>
     <lastmod>2025-12-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.vercel.app/blog/track-subscriptions</loc>
+    <loc>https://life-admin.uk/blog/new-year-admin-tasks</loc>
     <lastmod>2025-12-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.vercel.app/blog/warranty-tracking</loc>
+    <loc>https://life-admin.uk/blog/paper-mail-system</loc>
+    <lastmod>2025-12-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://life-admin.uk/blog/password-management-simple</loc>
+    <lastmod>2025-12-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://life-admin.uk/blog/switch-utility-providers</loc>
+    <lastmod>2025-12-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://life-admin.uk/blog/track-subscriptions</loc>
+    <lastmod>2025-12-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://life-admin.uk/blog/warranty-tracking</loc>
     <lastmod>2025-12-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

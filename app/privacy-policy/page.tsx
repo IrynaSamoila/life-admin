@@ -62,8 +62,11 @@ export default function PrivacyPolicy() {
 
         <h2 className="mb-4 mt-8 text-2xl font-bold text-gray-900">Contact</h2>
         <p className="leading-relaxed">
-          If you have questions about this privacy policy, please open an issue on our
-          GitHub repository.
+          If you have questions about this privacy policy, please contact us at{' '}
+          <a href="mailto:hello@life-admin.uk" className="text-blue-600 hover:text-blue-800 underline">
+            hello@life-admin.uk
+          </a>
+          .
         </p>
       </div>
     </div>
