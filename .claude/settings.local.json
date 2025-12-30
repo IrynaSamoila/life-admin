@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npm run build:*)",
+      "Bash(npm run dev:*)",
+      "Bash(find:*)",
+      "Bash(xargs unix2dos:*)",
+      "Bash(unix2dos:*)",
+      "Bash(for:*)",
+      "Bash(do:*)",
+      "Bash(done)"
+    ]
+  }
+}

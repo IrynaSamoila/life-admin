@@ -1,0 +1,5 @@
+# Add your static assets here
+# For example:
+# - og-image.png (1200x630px for OpenGraph)
+# - favicon.ico
+# - robots.txt (if not using app/robots.ts)

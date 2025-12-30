@@ -1,0 +1,324 @@
+---
+title: A Simple System for Tracking Subscriptions Without Apps
+date: 2025-10-14
+description: Track all your recurring subscriptions using a basic spreadsheet and calendar reminders. No apps, no automation, just reliable tracking.
+tags: [finance, organisation, systems, subscriptions]
+---
+
+Subscription tracking apps exist. You don't need them. A simple spreadsheet and calendar system works better and lasts longer.
+
+## The Problem with Subscription Tracking Apps
+
+Most subscription tracking apps are themselves subscriptions. The irony is thick.
+
+They also:
+- Require linking bank accounts (security risk)
+- Miss subscriptions paid via different methods
+- Stop working when the company shuts down
+- Add another thing to check regularly
+
+The alternative is simpler.
+
+## The Spreadsheet System
+
+One spreadsheet. Five columns. That's it.
+
+### Column Structure
+
+```
+| Subscription | Cost | Frequency | Next Bill | Cancellation Method |
+```
+
+**Subscription:** Service name (Netflix, Spotify, etc.)
+
+**Cost:** Amount per billing period
+
+**Frequency:** Monthly, Annual, Quarterly
+
+**Next Bill:** Exact date of next charge
+
+**Cancellation Method:** Where you go to cancel (critical)
+
+### Example Entries
+
+```
+| Netflix        | £12.99 | Monthly   | 2025-03-15 | netflix.com/account |
+| Spotify        | £9.99  | Monthly   | 2025-03-08 | spotify.com/account |
+| NYT            | £120   | Annual    | 2025-06-01 | nytimes.com/myaccount |
+| Adobe CC       | £54.99 | Monthly   | 2025-03-10 | adobe.com/account |
+| Amazon Prime   | £95    | Annual    | 2025-11-20 | amazon.co.uk/prime |
+```
+
+## Setting It Up (20 Minutes)
+
+### Step 1: Gather All Subscriptions (10 minutes)
+
+Check these sources:
+- Bank statement (last 3 months)
+- Credit card statement (last 3 months)
+- PayPal subscriptions page
+- Apple subscriptions (iPhone Settings → Your Name → Subscriptions)
+- Google subscriptions (payments.google.com → Subscriptions)
+- Email search for "subscription" and "receipt"
+
+You'll find subscriptions you forgot existed. I found seven I didn't know about.
+
+### Step 2: Create the Spreadsheet (5 minutes)
+
+Use whatever you have:
+- Google Sheets (free, cloud backup)
+- Excel
+- Numbers (Mac)
+- LibreOffice Calc (free)
+
+Create five columns as shown above. Bold the headers. Done.
+
+### Step 3: Fill In Details (5 minutes)
+
+For each subscription:
+1. Add name
+2. Add cost exactly as charged
+3. Add frequency
+4. Calculate next bill date (add frequency to last charge date)
+5. Find and note cancellation URL
+
+The cancellation URL is crucial. When you want to cancel in 6 months, you'll waste 15 minutes hunting for the cancellation page if you don't note it now.
+
+## The Calendar Reminder System
+
+The spreadsheet tracks what you have. Calendar reminders make you review it.
+
+### Set Up Two Recurring Reminders
+
+**Monthly Review - 1st of each month:**
+- Title: "Review subscriptions"
+- Time: 15 minutes
+- Action: Check if you still use everything
+
+**Quarterly Audit - 1st of Jan/Apr/Jul/Oct:**
+- Title: "Subscription audit"
+- Time: 30 minutes
+- Action: Update spreadsheet, verify all charges, cancel unused
+
+### The Monthly Review Process (15 minutes)
+
+First day of each month:
+
+1. Open spreadsheet
+2. Check which subscriptions bill this month
+3. Ask yourself: "Did I use this in the last 30 days?"
+4. If no: Cancel immediately
+5. Update "Next Bill" dates for any you kept
+
+Don't overthink the "did I use this" question. If you can't remember using it, you didn't use it enough to justify the cost.
+
+### The Quarterly Audit Process (30 minutes)
+
+Once every three months:
+
+1. Check bank statement against spreadsheet
+2. Add any subscriptions that appeared (you forgot to add them)
+3. Remove any you cancelled
+4. Total up monthly and annual costs
+5. Verify cancellation URLs still work
+6. Update any price changes
+
+This catches subscriptions that sneak in between monthly reviews.
+
+## Handling Different Subscription Types
+
+### Annual Subscriptions
+
+The dangerous ones. You forget about them for 11 months, then get hit with a £100 charge.
+
+**System:**
+1. Note annual renewal date in spreadsheet
+2. Add calendar reminder 30 days before renewal
+3. Add second reminder 7 days before renewal
+4. Decide then if you'll renew
+
+Don't auto-renew annual subscriptions unless you use them daily.
+
+### Free Trials
+
+Free trials are just delayed subscriptions.
+
+**When you start a free trial:**
+1. Add to spreadsheet immediately
+2. Set calendar reminder for day before trial ends
+3. Note cancellation URL
+4. Assume you'll forget to cancel (because you will)
+
+If you need a reminder to cancel a free trial, you don't need the service.
+
+### Bundle Subscriptions
+
+Amazon Prime, Apple One, Microsoft 365 - bundles complicate tracking.
+
+**Track these separately:**
+1. Main bundle subscription
+2. Each service you actually use within bundle
+
+Example:
+```
+| Amazon Prime   | £95   | Annual | 2025-11-20 | amazon.co.uk/prime |
+| - Prime Video  | (inc) | -      | -          | Value: Use weekly  |
+| - Prime Delivery| (inc)| -      | -          | Value: Use monthly |
+| - Prime Music  | (inc) | -      | -          | Value: Never use   |
+```
+
+This shows which parts of the bundle you actually use. If you only use one service, the bundle might not be worth it.
+
+## Calculating True Cost
+
+Your spreadsheet shows individual costs. Monthly review shows total cost.
+
+### Add This to Bottom of Spreadsheet
+
+```
+Monthly subscriptions total: £XX
+Annual subscriptions total: £XX
+Annual subscriptions ÷ 12: £XX
+
+Total monthly cost: £XX
+Total annual cost: £XX
+```
+
+Update these totals during quarterly audits.
+
+Seeing "£482/year on subscriptions" hits differently than seeing "£9.99/month" repeated in your bank statement.
+
+## When to Cancel
+
+You don't need rules for this. You need one question:
+
+**"Did I actively use this in the last 30 days?"**
+
+Not "might I use it" or "I used it once 4 months ago" or "it's only £X."
+
+Active use in the last 30 days. Yes or no.
+
+If no: Cancel now.
+
+## The Cancellation Process
+
+This is why you noted cancellation URLs in the spreadsheet.
+
+### Standard Cancellation Steps
+
+1. Go to cancellation URL from spreadsheet
+2. Cancel service (ignore "are you sure" messages)
+3. Take screenshot of cancellation confirmation
+4. Note cancellation date in spreadsheet
+5. Don't delete row until after final billing period ends
+6. Verify cancellation appears on next statement
+
+### Difficult Cancellations
+
+Some services make cancelling intentionally difficult.
+
+**If you can't find cancellation option:**
+- Search "[service name] cancel subscription"
+- Check terms of service for cancellation method
+- Contact support as last resort
+
+**If cancellation requires phone call:**
+- Call during off-peak hours (10am Tuesday is best)
+- Don't engage with retention offers
+- Ask for cancellation confirmation email
+- If they refuse, cancel payment method with your bank
+
+**If they make you wait 30 days:**
+- Set calendar reminder for day after cancellation is complete
+- Verify it's actually cancelled
+- Check bank statement the following month
+
+## Preventing Future Subscription Creep
+
+The system prevents forgotten subscriptions. This prevents new ones.
+
+### New Subscription Checklist
+
+Before subscribing to anything:
+
+- [ ] Have I tried the free tier (if available)?
+- [ ] Can I share with family to split cost?
+- [ ] Will I use this at least weekly?
+- [ ] What's the cancellation process?
+- [ ] Have I added it to the spreadsheet?
+- [ ] Have I set reminder to review in 30 days?
+
+If you can't honestly answer yes to the first three, don't subscribe.
+
+## Common Subscription Traps
+
+### The "Only £2.99" Trap
+
+Small subscriptions add up faster than large ones because you don't notice them.
+
+£2.99 + £4.99 + £1.99 + £3.99 + £2.99 = £16.95/month = £203/year
+
+You'd never pay £203 upfront for these services. But £2.99 feels insignificant.
+
+Track everything. Small subscriptions are still subscriptions.
+
+### The "I Might Need It" Trap
+
+You won't. If you haven't used it in 30 days, you won't suddenly start.
+
+Cancel now. If you actually need it later (you won't), you can resubscribe.
+
+### The Sunk Cost Trap
+
+"I've had this subscription for 3 years" is not a reason to keep it.
+
+Past cost is irrelevant. Future value is all that matters.
+
+## Results After 3 Months
+
+After implementing this system:
+
+**What you'll typically find:**
+- Several subscriptions you forgot existed
+- Subscriptions you don't actually use
+- Potentially duplicate subscriptions (e.g., Spotify and Apple Music)
+- Cancellable subscriptions adding up monthly
+
+**Potential savings:**
+- First month: savings from cancelling obvious waste
+- Ongoing: savings from preventing new subscriptions
+- Annual: varies by individual subscription patterns
+
+**Time invested:**
+- Setup: 20 minutes
+- Monthly review: 15 minutes
+- Quarterly audit: 30 minutes
+- Total annual time: 3 hours 20 minutes
+
+The time investment is typically worthwhile given the savings most people find.
+
+## Maintaining the System
+
+The system only works if you maintain it.
+
+### Monthly (15 minutes):
+- Review spreadsheet
+- Cancel unused subscriptions
+- Update next bill dates
+
+### Quarterly (30 minutes):
+- Audit bank statements
+- Update spreadsheet
+- Verify cancellation URLs
+- Calculate totals
+
+### When subscribing to anything new:
+- Add to spreadsheet immediately
+- Set 30-day review reminder
+- Note cancellation URL
+
+That's it. No apps, no automation, no complexity.
+
+Just a spreadsheet, two calendar reminders, and honesty about what you actually use.
+
+Boring. Simple. Effective.
