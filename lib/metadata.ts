@@ -46,5 +46,15 @@ export function constructMetadata({
     alternates: {
       canonical: canonical || siteConfig.url,
     },
+    icons: {
+      icon: [
+        { url: "/favicon/favicon.ico" },
+        { url: "/favicon/favicon.svg", type: "image/svg+xml" },
+        { url: "/favicon/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+      ],
+      apple: "/favicon/apple-touch-icon.png",
+    }
+
+
   };
 }
