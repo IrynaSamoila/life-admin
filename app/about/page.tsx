@@ -28,23 +28,22 @@ export default function About() {
 
         <h2 className="mb-4 mt-8 text-2xl font-bold text-gray-900">What You&apos;ll Find Here</h2>
         <ul className="ml-6 list-disc space-y-2">
-          <li>Step-by-step guides for common life admin tasks</li>
-          <li>Template systems you can adapt to your needs</li>
-          <li>Process optimizations that save time and reduce decision fatigue</li>
-          <li>Tools and automation recommendations</li>
-          <li>Real-world examples and case studies</li>
+          <li>Practical guides for common UK life admin tasks</li>
+          <li>Step-by-step processes you can implement</li>
+          <li>Recommendations for tools and automation</li>
+          <li>Simple systems that reduce mental overhead</li>
         </ul>
 
         <h2 className="mb-4 mt-8 text-2xl font-bold text-gray-900">Our Approach</h2>
         <p className="leading-relaxed">
-          We focus on boring, simple, and reliable systems. No fancy apps or complicated
-          methodologies. Just practical approaches that work consistently and require minimal
-          maintenance.
+          This is a UK-focused resource covering tasks like tax admin, ISAs, NHS records, MOT
+          tracking, and household management specific to life in the UK.
         </p>
 
         <p className="leading-relaxed">
-          Every system we share is tested in real-world conditions and designed to be adapted
-          to your specific situation. We believe the best system is the one you&apos;ll actually use.
+          We focus on boring, simple, and reliable systems. No fancy apps or complicated
+          methodologies. Just practical approaches that work consistently and require minimal
+          maintenance. The best system is the one you&apos;ll actually use.
         </p>
 
         <h2 className="mb-4 mt-8 text-2xl font-bold text-gray-900">Get in Touch</h2>
