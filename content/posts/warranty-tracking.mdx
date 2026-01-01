@@ -45,9 +45,8 @@ One spreadsheet. Seven columns.
 
 ### Column Structure
 
-```
 | Item | Purchase Date | Warranty End | Cost | Retailer | Receipt Location | Notes |
-```
+|------|---------------|--------------|------|----------|------------------|-------|
 
 **Item:** What you bought
 - "Samsung Washing Machine WW90"
@@ -81,11 +80,11 @@ One spreadsheet. Seven columns.
 
 ### Example Entries
 
-```
+| Item | Purchase Date | Warranty End | Cost | Retailer | Receipt Location | Notes |
+|------|---------------|--------------|------|----------|------------------|-------|
 | Washing Machine Samsung WW90 | 15/03/2023 | 15/03/2025 | £449 | John Lewis | 2023-03-15_Receipt_WashingMachine.pdf | 2yr warranty, registered online |
 | iPhone 14 Pro | 22/09/2023 | 22/09/2024 | £1099 | Apple Store | Apple_Email_22Sep2023 | AppleCare until Sep 2025 if purchased |
 | Bosch Drill GSB 18V | 10/11/2023 | 10/11/2026 | £89 | Screwfix | Physical receipt - Tools folder | 3yr warranty, no registration needed |
-```
 
 ## Setting It Up
 
@@ -199,12 +198,13 @@ Two-part system: Physical and digital.
 ### Digital Receipts (Primary)
 
 **Folder structure:**
-```
+
+<FileTree>
 Receipts/
 ├── 2024/
 ├── 2023/
 └── Warranties-Active/
-```
+</FileTree>
 
 **Process:**
 1. All new receipts go to Warranties-Active

@@ -25,9 +25,8 @@ One spreadsheet. Five columns. That's it.
 
 ### Column Structure
 
-```
 | Subscription | Cost | Frequency | Next Bill | Cancellation Method |
-```
+|-------------|------|-----------|-----------|---------------------|
 
 **Subscription:** Service name (Netflix, Spotify, etc.)
 
@@ -41,13 +40,13 @@ One spreadsheet. Five columns. That's it.
 
 ### Example Entries
 
-```
-| Netflix        | £12.99 | Monthly   | 2025-03-15 | netflix.com/account |
-| Spotify        | £9.99  | Monthly   | 2025-03-08 | spotify.com/account |
-| NYT            | £120   | Annual    | 2025-06-01 | nytimes.com/myaccount |
-| Adobe CC       | £54.99 | Monthly   | 2025-03-10 | adobe.com/account |
-| Amazon Prime   | £95    | Annual    | 2025-11-20 | amazon.co.uk/prime |
-```
+| Subscription | Cost | Frequency | Next Bill | Cancellation Method |
+|-------------|------|-----------|-----------|---------------------|
+| Netflix | £12.99 | Monthly | 2025-03-15 | netflix.com/account |
+| Spotify | £9.99 | Monthly | 2025-03-08 | spotify.com/account |
+| NYT | £120 | Annual | 2025-06-01 | nytimes.com/myaccount |
+| Adobe CC | £54.99 | Monthly | 2025-03-10 | adobe.com/account |
+| Amazon Prime | £95 | Annual | 2025-11-20 | amazon.co.uk/prime |
 
 ## Setting It Up (20 Minutes)
 
@@ -160,12 +159,13 @@ Amazon Prime, Apple One, Microsoft 365 - bundles complicate tracking.
 2. Each service you actually use within bundle
 
 Example:
-```
-| Amazon Prime   | £95   | Annual | 2025-11-20 | amazon.co.uk/prime |
-| - Prime Video  | (inc) | -      | -          | Value: Use weekly  |
-| - Prime Delivery| (inc)| -      | -          | Value: Use monthly |
-| - Prime Music  | (inc) | -      | -          | Value: Never use   |
-```
+
+| Subscription | Cost | Frequency | Next Bill | Cancellation Method |
+|-------------|------|-----------|-----------|---------------------|
+| Amazon Prime | £95 | Annual | 2025-11-20 | amazon.co.uk/prime |
+| - Prime Video | (inc) | - | - | Value: Use weekly |
+| - Prime Delivery | (inc) | - | - | Value: Use monthly |
+| - Prime Music | (inc) | - | - | Value: Never use |
 
 This shows which parts of the bundle you actually use. If you only use one service, the bundle might not be worth it.
 
@@ -175,14 +175,14 @@ Your spreadsheet shows individual costs. Monthly review shows total cost.
 
 ### Add This to Bottom of Spreadsheet
 
-```
+<SimpleList>
 Monthly subscriptions total: £XX
 Annual subscriptions total: £XX
 Annual subscriptions ÷ 12: £XX
 
 Total monthly cost: £XX
 Total annual cost: £XX
-```
+</SimpleList>
 
 Update these totals during quarterly audits.
 
@@ -241,12 +241,12 @@ The system prevents forgotten subscriptions. This prevents new ones.
 
 Before subscribing to anything:
 
-- [ ] Have I tried the free tier (if available)?
-- [ ] Can I share with family to split cost?
-- [ ] Will I use this at least weekly?
-- [ ] What's the cancellation process?
-- [ ] Have I added it to the spreadsheet?
-- [ ] Have I set reminder to review in 30 days?
+- Have I tried the free tier (if available)?
+- Can I share with family to split cost?
+- Will I use this at least weekly?
+- What's the cancellation process?
+- Have I added it to the spreadsheet?
+- Have I set reminder to review in 30 days?
 
 If you can't honestly answer yes to the first three, don't subscribe.
 

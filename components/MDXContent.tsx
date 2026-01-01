@@ -1,5 +1,9 @@
 import { MDXRemote } from 'next-mdx-remote/rsc';
 import React from 'react';
+import remarkGfm from 'remark-gfm';
+import FileTree from './FileTree';
+import DataTable from './DataTable';
+import SimpleList from './SimpleList';
 
 interface MDXContentProps {
   source: string;
@@ -43,14 +47,46 @@ const components = {
     />
   ),
   pre: (props: React.HTMLAttributes<HTMLPreElement>) => (
-    <pre className="mb-4 overflow-x-auto rounded-lg bg-gray-900 p-4 text-sm text-gray-100" {...props} />
+    <pre className="mb-4 overflow-x-auto rounded-lg bg-gray-100 p-4 text-sm text-gray-800 border border-gray-200" {...props} />
   ),
+  table: (props: React.TableHTMLAttributes<HTMLTableElement>) => (
+    <div className="my-6 overflow-x-auto rounded-lg border border-gray-200 shadow-sm">
+      <table className="min-w-full divide-y divide-gray-200 bg-white" {...props} />
+    </div>
+  ),
+  thead: (props: React.HTMLAttributes<HTMLTableSectionElement>) => (
+    <thead className="bg-gray-50" {...props} />
+  ),
+  tbody: (props: React.HTMLAttributes<HTMLTableSectionElement>) => (
+    <tbody className="divide-y divide-gray-200 bg-white" {...props} />
+  ),
+  tr: (props: React.HTMLAttributes<HTMLTableRowElement>) => (
+    <tr className="hover:bg-gray-50" {...props} />
+  ),
+  th: (props: React.ThHTMLAttributes<HTMLTableCellElement>) => (
+    <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-gray-700" {...props} />
+  ),
+  td: (props: React.TdHTMLAttributes<HTMLTableCellElement>) => (
+    <td className="px-4 py-3 text-sm text-gray-700" {...props} />
+  ),
+  // Custom components
+  FileTree,
+  DataTable,
+  SimpleList,
 };
 
 export default function MDXContent({ source }: MDXContentProps) {
   return (
     <div className="prose prose-gray max-w-none">
-      <MDXRemote source={source} components={components} />
+      <MDXRemote
+        source={source}
+        components={components}
+        options={{
+          mdxOptions: {
+            remarkPlugins: [remarkGfm],
+          },
+        }}
+      />
     </div>
   );
 }
