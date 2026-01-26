@@ -49,6 +49,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://life-admin.uk/blog/digital-vs-physical-docs</loc>
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://life-admin.uk/blog/document-retention</loc>
     <lastmod>2026-01-01</lastmod>
     <changefreq>monthly</changefreq>
